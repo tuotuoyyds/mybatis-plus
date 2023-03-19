@@ -22,6 +22,7 @@ class MybatisPlusApplicationTests {
         list.forEach(System.out::println);
         System.out.println("xx");
         System.out.println("master");
+        System.out.println("ssh");
     }
     @Test
     void contextLoads() {
