@@ -21,6 +21,7 @@ class MybatisPlusApplicationTests {
         List<User> list = userService.list();
         list.forEach(System.out::println);
         System.out.println("xx");
+        System.out.println("master");
     }
     @Test
     void contextLoads() {
