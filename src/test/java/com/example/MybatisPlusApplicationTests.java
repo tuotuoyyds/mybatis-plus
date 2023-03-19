@@ -20,6 +20,7 @@ class MybatisPlusApplicationTests {
     void cc(){
         List<User> list = userService.list();
         list.forEach(System.out::println);
+        System.out.println("xx");
     }
     @Test
     void contextLoads() {
